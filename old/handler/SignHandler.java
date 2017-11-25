@@ -1,4 +1,4 @@
-package io.github.illyohs.itsbecauseuhasnogoodspawn.handler;
+package io.github.illyohs.ibuhngs.handler;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSign;

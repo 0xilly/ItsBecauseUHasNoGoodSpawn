@@ -1,4 +1,4 @@
-package io.github.illyohs.itsbecauseuhasnogoodspawn.util;
+package io.github.illyohs.ibuhngs.util;
 
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;

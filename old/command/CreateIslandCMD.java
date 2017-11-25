@@ -1,4 +1,4 @@
-package io.github.illyohs.itsbecauseuhasnogoodspawn.command;
+package io.github.illyohs.ibuhngs.command;
 
 import net.minecraft.command.*;
 import net.minecraft.entity.Entity;
@@ -6,7 +6,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
-import io.github.illyohs.itsbecauseuhasnogoodspawn.IBuhngs;
+import io.github.illyohs.ibuhngs.IBuhngs;
 
 import javax.annotation.Nullable;
 import java.util.List;

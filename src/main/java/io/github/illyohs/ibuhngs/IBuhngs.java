@@ -1,10 +1,6 @@
-package io.github.illyohs.itsbecauseuhasnogoodspawn;
+package io.github.illyohs.ibuhngs;
 
-import io.github.illyohs.itsbecauseuhasnogoodspawn.command.CreateIslandCMD;
-import io.github.illyohs.itsbecauseuhasnogoodspawn.command.TpIslandCMD;
-import io.github.illyohs.itsbecauseuhasnogoodspawn.handler.IslandHandler;
-import io.github.illyohs.itsbecauseuhasnogoodspawn.util.ModInfo;
-import net.minecraftforge.common.MinecraftForge;
+import io.github.illyohs.ibuhngs.util.ModInfo;
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -29,20 +25,20 @@ public class IBuhngs
     @Mod.Instance(ModInfo.MOD_ID)
     public static IBuhngs instnace;
 
-    public IslandHandler islandHandler;
+//    public IslandHandler islandHandler;
 
     @Mod.EventHandler
     public void serverStarting(FMLServerStartingEvent e)
     {
-        e.registerServerCommand(new CreateIslandCMD());
-        e.registerServerCommand(new TpIslandCMD());
+//        e.registerServerCommand(new CreateIslandCMD());
+//        e.registerServerCommand(new TpIslandCMD());
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent e)
     {
-        islandHandler = new IslandHandler();
-        MinecraftForge.EVENT_BUS.register(islandHandler);
+////        islandHandler = new IslandHandler();
+//        MinecraftForge.EVENT_BUS.register(islandHandler);
 
         PermissionAPI.registerNode("ibuhngs.island.rm", DefaultPermissionLevel.OP, "deletes island from list");
     }

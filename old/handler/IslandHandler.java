@@ -1,9 +1,9 @@
-package io.github.illyohs.itsbecauseuhasnogoodspawn.handler;
+package io.github.illyohs.ibuhngs.handler;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import io.github.illyohs.itsbecauseuhasnogoodspawn.util.Utils;
+import io.github.illyohs.ibuhngs.util.Utils;
 import net.minecraft.command.ICommandManager;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.BlockPos;
@@ -13,8 +13,8 @@ import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 import net.minecraftforge.fml.relauncher.Side;
-import io.github.illyohs.itsbecauseuhasnogoodspawn.IBuhngs;
-import io.github.illyohs.itsbecauseuhasnogoodspawn.util.Island;
+import io.github.illyohs.ibuhngs.IBuhngs;
+import io.github.illyohs.ibuhngs.api.island.Island;
 
 import java.io.*;
 import java.nio.file.Files;

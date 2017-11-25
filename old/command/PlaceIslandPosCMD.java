@@ -1,4 +1,4 @@
-package io.github.illyohs.itsbecauseuhasnogoodspawn.command;
+package io.github.illyohs.ibuhngs.command;
 
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;

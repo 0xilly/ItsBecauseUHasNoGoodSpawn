@@ -1,4 +1,4 @@
-package io.github.illyohs.itsbecauseuhasnogoodspawn.util;
+package io.github.illyohs.ibuhngs.util;
 
 /**
  * Created by anthony on 12/2/16.

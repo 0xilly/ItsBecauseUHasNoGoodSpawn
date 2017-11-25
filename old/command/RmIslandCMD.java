@@ -1,6 +1,6 @@
-package io.github.illyohs.itsbecauseuhasnogoodspawn.command;
+package io.github.illyohs.ibuhngs.command;
 
-import io.github.illyohs.itsbecauseuhasnogoodspawn.IBuhngs;
+import io.github.illyohs.ibuhngs.IBuhngs;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
