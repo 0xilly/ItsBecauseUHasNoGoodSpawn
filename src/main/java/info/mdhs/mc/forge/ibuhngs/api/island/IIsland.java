@@ -1,4 +1,4 @@
-package io.github.illyohs.ibuhngs.api.island;
+package info.mdhs.mc.forge.ibuhngs.api.island;
 
 import net.minecraft.util.math.BlockPos;
 

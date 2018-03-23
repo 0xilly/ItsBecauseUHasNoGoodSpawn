@@ -8,10 +8,11 @@ buildscript {
         }
     }
     dependencies {
-        classpath "net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT"
+        classpath "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT"
     }
 }
 
+apply plugin: "scala"
 apply plugin: "net.minecraftforge.gradle.forge"
 
 version = modVersion
@@ -68,7 +69,10 @@ repositories {
 }
 
 dependencies {
-    deobfCompile "net.minecraftforge.lex:YUNoMakeGoodMap:1.10.2-6.1.0.26"
+    compile 'org.postgresql:postgresql:42.2.1'
+    compile 'org.xerial:sqlite-jdbc:3.21.0.1'
+
+//    deobfCompile "net.minecraftforge.lex:YUNoMakeGoodMap:1.10.2-6.1.0.26"
 }
 
 //task signJar(type: SignJar, dependsOn: reobfJar) {

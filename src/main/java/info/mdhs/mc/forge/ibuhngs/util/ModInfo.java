@@ -1,4 +1,4 @@
-package io.github.illyohs.ibuhngs.util;
+package info.mdhs.mc.forge.ibuhngs.util;
 
 /**
  * Created by anthony on 12/2/16.

@@ -1,4 +1,4 @@
-package io.github.illyohs.ibuhngs.util;
+package info.mdhs.mc.forge.ibuhngs.util;
 
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
